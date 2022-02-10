@@ -1,3 +1,7 @@
+# Esse código fa´ra perguntas de quem são os jogadores que fazem parte do time
+# Após isso será feito o tratamento dos dados para serem exibidos na tela
+# Nesse código contém uma validação de input.
+
 time = []
 while True:
     # Pergunta os dados do jogador.
