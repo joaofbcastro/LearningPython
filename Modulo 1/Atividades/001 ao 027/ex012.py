@@ -1,0 +1,10 @@
+# Desconto de 5%
+print('-------------------------------------------------------')
+print('Bem vindo(a) a loja Curso em Video.')
+preco = float(input('Qual o preço do produto que você quer comprar: R$'))
+print('Nada disso. Hoje você tem direito a 5% de desconto.')
+print('-------------------------------------------------------')
+print('Valor: R%{:.2f}\nTotal: R${:.2f}\nDesconto: R${:.2f}'.format(preco, preco - preco * 0.05, preco * 0.05))
+print('-------------------------------------------------------')
+print('Obrigado por escolher a nossa loja.')
+print('-------------------------------------------------------')

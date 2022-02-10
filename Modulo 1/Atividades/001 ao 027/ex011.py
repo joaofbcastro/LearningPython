@@ -1,0 +1,12 @@
+# Calcular o consumo de tinta
+print('----------------')
+print('Para calcular quantas latas gastará para pintar sua parede')
+larg = float(input('Digite a largura de sua parede, em metros: '))
+alt = float(input('Digite a altura de sua parede, em metros: '))
+area = (alt * larg)
+latas = int(area/2)
+print('----------------')
+print('A sua parede tem {:.1f}m² | São necessárias aproximadamente {} latas de tinta para pintar completamente esta parede.'.format(area, latas))
+print('----------------')
+print('levamos em consideração o fato de uma lata de tinta ser capaz de pintar 2m²')
+print('----------------')
