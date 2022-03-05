@@ -14,6 +14,8 @@ numbers = []
 def sorteia():
     for i in range(5):
         numbers.append(randint(0, 9))
+    print('~'*50)
+    print(f'Os valores sorteados foram: {numbers}')
 
 
 def somapar():
@@ -25,6 +27,4 @@ def somapar():
 
 
 sorteia()
-print('~'*50)
-print(f'Os valores sorteados foram: {numbers}')
 somapar()
