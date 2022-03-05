@@ -22,7 +22,6 @@ def somapar():
         if i % 2 == 0:
             soma += i
     print(f'A soma dos valores pares é {soma}')
-    
 
 
 sorteia()
