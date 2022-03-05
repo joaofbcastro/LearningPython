@@ -8,17 +8,17 @@ mostrar a soma entre todos os valores pares sorteados pela função anterior.
 from random import randint
 
 
-numeros = []
+numbers = []
 
 
 def sorteia():
     for i in range(5):
-        numeros.append(randint(0, 9))
+        numbers.append(randint(0, 9))
 
 
 def somapar():
     soma = 0
-    for i in numeros:
+    for i in numbers:
         if i % 2 == 0:
             soma += i
     print(f'A soma dos valores pares é {soma}')
@@ -27,5 +27,5 @@ def somapar():
 
 sorteia()
 print('~'*50)
-print(f'Os valores sorteados foram: {numeros}')
+print(f'Os valores sorteados foram: {numbers}')
 somapar()
