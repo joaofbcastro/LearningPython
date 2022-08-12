@@ -1,4 +1,15 @@
 def notas(*args, sit: bool = False):
+    """Uma função para analisar notas e situações de alunos.
+
+    Parameters
+    ----------
+        n: Uma ou mais notas do aluno
+        sit: (Opcional) Indica se deve ser incluída ou não a situação do aluno
+
+    Returns
+    -------
+        dict: Dicionário com as informações do aluno.
+    """
 
     aluno = {
         'total': len(args),
@@ -13,5 +24,5 @@ def notas(*args, sit: bool = False):
     return aluno
 
 
-resp = notas(5, 6, 7, 10, 0, 5, 6, 9, sit=True)
+resp = notas(5, 6, 7, 10, 0, 5, 6, 9)
 print(resp)
