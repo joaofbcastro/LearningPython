@@ -3,7 +3,7 @@ def notas(*args, sit: bool = False):
 
     Parameters
     ----------
-        n: Uma ou mais notas do aluno
+        args: Uma ou mais notas do aluno
         sit: (Opcional) Indica se deve ser incluída ou não a situação do aluno
 
     Returns
